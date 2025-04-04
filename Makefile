@@ -1,7 +1,7 @@
 CFLAGS=-Wall -Wextra -Wpedantic
 
 piano: piano.o
-	cc $(CFLAGS) -lm -lao -o piano piano.o
+	cc $(CFLAGS) -o piano piano.o -lm -lao
 
 install: piano
 	install -o root -g root piano /usr/bin/piano
