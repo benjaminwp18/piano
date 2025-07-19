@@ -55,7 +55,7 @@ EXAMPLES
 You might need to explicitly install `libao`, i.e.:
 
 ```bash
-sudo apt-get libao-dev
+sudo apt-get install libao-dev
 ```
 
 Build locally:
